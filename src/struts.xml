@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.multipart.maxSize" value="50971520"/>
+	<package name="strutsqs" extends="struts-default" namespace="/" >
+		<action name="Demo" class="com.ilyar.action.Demo">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="Login" class="com.ilyar.action.Login" >
+			<result name="input">/index.jsp</result>
+			<result name="success">/homePage.jsp</result>
+		</action>
+		<action name="Homepage" class="com.ilyar.action.Homepage">
+			<result name="success">/homePage.jsp</result>
+		</action>
+		<action name="Classroom" class="com.ilyar.action.Classroom">
+			<result name="success">/classroom.jsp</result>
+		</action>
+		<action name="Classorder" class="com.ilyar.action.Classorder">
+			<result name="success">/classOrder.jsp</result>
+		</action>
+		<action name="Overview" class="com.ilyar.action.Overview">
+			<result name="success">/overview.jsp</result>
+		</action>
+		<action name="Quit" class="com.ilyar.action.Quit">
+			<result name="success">/index.jsp</result>
+		</action>
+	</package>
+</struts>    
