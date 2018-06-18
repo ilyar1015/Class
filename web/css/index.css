@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	min-width: 1240px;
+	font-family: 微软雅黑;
+}
+
+.head{
+	width: 100%;
+	height: 95px;
+	background-color: #19B394;
+}
+
+.head-font{
+	display: inline-block;
+	/*width: 250px;
+	height: 45px;*/
+	width: 23%;
+	height: 45px;
+	overflow: hidden;
+	font-size: 37px;
+	color: #fff; 
+	margin-top: 1.7%;
+	margin-left: 3.1%;
+	/*padding-top: 24px;
+	padding-left: 30px;*/
+	font-weight: bolder;
+}
+
+.admin{
+	display: block;
+	float: right;
+	width: 400px;
+	height: 100px;
+}
+
+.questions{
+	float: right;
+	margin-top: 33px;
+	width: 140px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.question-center{
+	float: left;
+	margin-top: 3px;
+}
+
+.admin-logo{
+	float: right;
+	margin-top: 35px;
+	width: 210px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.administrator{
+	margin-top: -9px;
+	margin-right: 15px;
+	float: right;
+}
+.content{
+	display: inline-block;
+	width: 100%;
+	height: 800px;
+	background-image: url(..//image//bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.entrance{
+	width: 27%;
+	height: 37%;	
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+.input1{
+	width: 100%;
+	height: 17%;
+	border-radius: 22px;
+	background-color: #D2CBC0;
+	opacity: .75;
+	outline: none;
+	/*text-indent: 75px;*/
+	font-size: 25px;
+	color: gray;
+	text-align: center;
+}
+
+.input2{
+	width: 100%;
+	height: 17%;
+	margin-top: 8%;
+	border-radius: 22px;
+	background-color: #D2CBC0;
+	opacity: .75;
+	outline: none;
+	/*text-indent: 75px;*/
+	font-size: 25px;
+	color: #555555;
+	text-align: center;
+}
+
+.input3{
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 18%;
+	font-size: 14px;
+	color: #F78F17;
+}
+
+.button{
+	width: 100%;
+	height: 17%;
+	margin-top: 7%;
+	border-radius: 22px;
+	background-color: #299223; 
+	opacity: .80;
+	outline: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.input-img1{
+	display: inline-block;
+	z-index: 5;
+	position: absolute;
+	margin-top: -43px;
+	margin-left: 23px;
+	padding-right: 8px;
+	border-right: 2px #999999 solid;
+}
+
+.input-img2{
+	display: inline-block;
+	z-index: 5;
+	position: absolute;
+	margin-top: -43px;
+	margin-left: 23px;
+	padding-right: 8px;
+	border-right: 2px #999999 solid;
+}

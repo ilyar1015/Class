@@ -1,0 +1,301 @@
+body{
+	margin: 0px;
+	min-width: 1240px;
+	font-family: 微软雅黑;
+}
+
+.head{
+	width: 100%;
+	height: 95px;
+	display: inline-block;
+	background-color: #19B394;
+}
+
+.head-font{
+	display: inline-block;
+	/*width: 250px;
+	height: 45px;*/
+	width: 23%;
+	height: 45px;
+	overflow: hidden;
+	font-size: 37px;
+	color: #fff; 
+	margin-top: 1.7%;
+	margin-left: 3.1%;
+	/*padding-top: 24px;
+	padding-left: 30px;*/
+	font-weight: bolder;
+}
+
+.admin{
+	display: block;
+	float: right;
+	width: 400px;
+	height: 100px;
+}
+
+.questions{
+	float: right;
+	margin-top: 33px;
+	width: 140px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.question-center{
+	float: left;
+	margin-top: 3px;
+}
+
+.admin-logo{
+	float: right;
+	margin-top: 35px;
+	width: 210px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.administrator{
+	margin-top: -9px;
+	margin-right: 15px;
+	float: right;
+}
+
+.sidebar{
+	display: inline-block;
+	width: 16%;
+	height: 800px;
+	background-color: #3B4551;
+}
+
+.block{
+	margin-top: 78px;
+	height: 240px;
+	width: 100%;
+}
+
+.block1,.block2,.block3,.block4{
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	font-size: 130%;
+	text-align: center;
+}
+
+.block-a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 15px;
+	width: 100%;
+}
+
+.block-img{
+	display: inline-block;
+	position: relative;
+	margin-left: 12%;
+}
+
+.block-word{
+	display: inline-block;
+	float: right;
+	margin-top: 2px;
+	margin-right: 23%;
+	width: 40%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.block1:hover{
+	background-color: #36414D;
+	color: #19B394;
+}
+
+.block2:hover{
+	background-color: #36414D;
+}
+
+.block3:hover{
+	background-color: #36414D;
+}
+
+.block4:hover{
+	background-color: #36414D;
+}
+
+.block-a:hover{
+	color: #19B394;
+}
+
+.content{
+	width: 84%;
+	height: 800px;
+	background-image: url(..//image//bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	float: right;
+	
+}
+
+.overview{
+	width: 97.5%;
+	height: 17.8%;
+	margin: 0 auto;
+}
+
+.head1{
+	border: 2px #E79C44 solid;
+	width: 14%;
+	height: 31%;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: none;
+	background-color: #D7D1C6;
+	opacity: .9;
+	display: inline-block;
+}
+
+.head11{
+	display: inline-block;
+	width: 100%;
+	height: 85%;
+	margin-top: 6%;
+	text-align: center;
+	font-size: 21px;
+	color: #403E3B;
+}
+
+.head2{
+	border: 2px #E79C44 solid;
+	/*border-top: 1px #fff solid;*/
+	width: 100%;
+	height: 69%;
+	background-color: #D7D1C6;
+	opacity: .9;
+	float: left;
+}
+
+.cover{
+	width: 14%;
+	height: 2px;
+	background-color: #fff;
+	margin-top: -2px;
+}
+
+.head2div{
+	width: 45%;
+	margin-top: 17px;
+	float: left;
+}
+
+.head2-span{
+	display: inline-block;
+	font-size: 17px;
+	color: #F59527;
+	position: relative;
+	margin-left: 40px;
+}
+
+.checkbox{
+	display: inline-block;
+ 	position: relative;
+ 	margin-left: 25px;
+}
+
+.situation{
+	width: 97.5%;
+	height: 80%;
+	margin-left: 14px;
+	float: left;
+	border-left: 2px #E79C44 solid;
+
+}
+
+.situation_1{
+	width: 100%;
+	height: 32%;
+}
+
+.situation_1_1{
+	display: inline-block;
+	width: 5%;
+	height: 16%;
+	float: left;
+	margin-top:23px;
+	background-color: #666666;
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+	padding-top: 3px;
+}
+
+.situation_1_2{
+	display: inline-block;
+	width: 100%;
+	height: 64%;
+	clear: both;
+	/*list-style-type: none;*/
+	list-style: none;
+	margin-top: 23px;
+}
+
+.situation_1_2>li{
+	display: block;
+	width: 17%;
+	height: 90%;
+	margin-top: 2px;
+	border: 2px #8076E5 solid;
+	float: left;
+	margin-right: 2%;
+	cursor: pointer;
+}
+
+.div1{
+	background-color:/* #C00000;*/ #0FC758;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.div2{
+	background-color: #C00000;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.classroom{
+	margin-top: 17px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.borrowed{
+	display: inline-block;
+	width: 35%;
+	height: 24px;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+.window1{
+	position: absolute;
+	z-index: 20;
+	width: 310px;
+	height: 300PX;
+	left: 34%;
+	top: 44.2%;
+	border: 2px #A4A3A1 solid;
+	display: none;
+	background-color: #E5E5E5;
+	opacity: .9;
+	font-size: 15px;
+}
+
+.window1_1{
+	display: block;
+	width: 100%;
+	margin-top: 10%;
+	font-size: 22px;
+	text-align: center;
+}
