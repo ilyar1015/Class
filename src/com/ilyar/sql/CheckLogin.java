@@ -29,8 +29,10 @@ public class CheckLogin {
                 HttpServletRequest request = ServletActionContext.getRequest();
                 if(type.equals("user")){
                     request.getSession().setAttribute("username",rs.getString("StuName"));
+                    request.getSession().setAttribute("id",rs.getString("StuId"));
                 }else{
                     request.getSession().setAttribute("username",rs.getString("ManageName"));
+                    request.getSession().setAttribute("id",rs.getString("ManageId"));
                 }
                 return true;
             }else{

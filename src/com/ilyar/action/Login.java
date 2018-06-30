@@ -36,10 +36,15 @@ public class Login extends ActionSupport {
         if (new CheckLogin().userLogin(username,password,type)) {
             request.getSession().setAttribute("loginname", username);
             request.getSession().setAttribute("type", type);
+            System.out.println("yes");
             return SUCCESS;
         } else {
+            System.out.println("no");
             request.setAttribute("login", "用户名或密码错误");
             return INPUT;
         }
     }
 }
+
+
+

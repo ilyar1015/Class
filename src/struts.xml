@@ -3,27 +3,27 @@
 <struts>
 	<constant name="struts.multipart.maxSize" value="50971520"/>
 	<package name="strutsqs" extends="struts-default" namespace="/" >
-		<action name="Demo" class="com.ilyar.action.Demo">
+
+		<action name="Login" class="com.ilyar.action.Login">
 			<result name="success">/index.jsp</result>
+			<result name="input">/login.jsp</result>
 		</action>
-		<action name="Login" class="com.ilyar.action.Login" >
-			<result name="input">/index.jsp</result>
-			<result name="success">/homePage.jsp</result>
+
+		<action name="Register" class="com.ilyar.action.Register">
+			<result name="success">/login.jsp</result>
+			<result name="input">/login.jsp</result>
 		</action>
-		<action name="Homepage" class="com.ilyar.action.Homepage">
-			<result name="success">/homePage.jsp</result>
-		</action>
-		<action name="Classroom" class="com.ilyar.action.Classroom">
-			<result name="success">/classroom.jsp</result>
-		</action>
-		<action name="Classorder" class="com.ilyar.action.Classorder">
-			<result name="success">/classOrder.jsp</result>
-		</action>
-		<action name="Overview" class="com.ilyar.action.Overview">
-			<result name="success">/overview.jsp</result>
-		</action>
+
 		<action name="Quit" class="com.ilyar.action.Quit">
-			<result name="success">/index.jsp</result>
+			<result name="success">/login.jsp</result>
+		</action>
+		<action name="Show" class="com.ilyar.action.Show">
+			<result name="success">/show.jsp</result>
+		</action>
+		<action name="Subs" class="com.ilyar.action.Subs">
+			<result name="success">/subscribe.jsp</result>
+			<result name="input">Show</result>
 		</action>
 	</package>
 </struts>    
+
